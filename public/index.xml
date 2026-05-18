@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nick | My Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nick | My Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2026 15:48:46 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mr Robot Vulnhub Writeup</title>
+      <link>http://localhost:1313/posts/mr-robot-vulnhub-writeup/</link>
+      <pubDate>Mon, 18 May 2026 15:48:46 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mr-robot-vulnhub-writeup/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;categories-walkthrough&#34;&gt;title: &amp;ldquo;Mr. Robot VulnHub Walkthrough&amp;rdquo;
+date: 2026-05-18T15:30:00+08:00
+draft: false
+tags: [&amp;ldquo;CTF&amp;rdquo;, &amp;ldquo;VulnHub&amp;rdquo;, &amp;ldquo;PrivEsc&amp;rdquo;]
+categories: [&amp;ldquo;Walkthrough&amp;rdquo;]&lt;/h2&gt;
+&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;
+&lt;p&gt;Mesin Mr. Robot dari VulnHub adalah platform CTF yang menguji kemahiran pengetesan penembusan (penetration testing). Mesin ini mempunyai 3 key/flag yang perlu dicari menerusi enumeration, exploitation, dan privilege escalation.&lt;/p&gt;
+&lt;h2 id=&#34;1-reconnaissance-nmap&#34;&gt;1. Reconnaissance (Nmap)&lt;/h2&gt;
+&lt;p&gt;Command yang digunakan untuk fasa awal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sV -sC -A -T4 192.168.1.X
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### Test Guna Local Server&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Sebelum hantar ke internet, kau boleh tengok rupa website kau kat komputer sendiri:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;```&lt;/span&gt;bash
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

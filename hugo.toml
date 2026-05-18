@@ -1,0 +1,18 @@
+baseURL = 'https://thenickvendetta.github.io/'
+languageCode = 'en-us'
+title = 'Nick | My Portfolio'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Nick @ Infosec'
+    description = 'Pentest Write-ups & Network Auditing Lab'
+    defaultTheme = 'dark' # Terus set stealth/dark mode default
+    disableThemeToggle = true # Lock terus tak bagi tukar light mode
+
+    # Letak profile short intro
+    [params.profileMode]
+        enabled = true
+        title = "Hi, I'm Nick"
+        subtitle = "Final Year Computer Networking Student & IT Intern. Focusing on Offensive Security & Penetration Testing."
+        imageUrl = "https://github.com/thenickvendetta.png" # Guna gambar profile github kau
