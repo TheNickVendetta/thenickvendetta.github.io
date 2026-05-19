@@ -3,31 +3,33 @@ publishDir = 'docs'
 languageCode = 'en-us'
 title = 'Nick | My Portfolio'
 theme = 'PaperMod'
+
+# Kekalkan canonifyURLs tapi BUANG relativeURLs
 canonifyURLs = true
-relativeURLs = true
-# Tambah baris ni untuk troubleshoot
-sectionPagesMenu = 'main'
 
 [params]
     env = 'production'
     title = 'Nick @ Infosec'
     description = 'Pentest Write-ups & Network Auditing Lab'
-    defaultTheme = 'dark' # Terus set stealth/dark mode default
-    disableThemeToggle = true # Lock terus tak bagi tukar light mode
+    defaultTheme = 'dark'
+    disableThemeToggle = true
+    
+    # Tambah baris ni untuk fix CSS
+    assets = { disableFingerprinting = true }
 
-    # Letak profile short intro
     [params.profileMode]
         enabled = true
         title = "Hi, I'm Nick"
         subtitle = "Final Year Computer Networking Student & IT Intern. Focusing on Offensive Security & Penetration Testing."
-        imageUrl = "https://github.com/thenickvendetta.png" # Guna gambar profile github kau
+        imageUrl = "https://github.com/thenickvendetta.png"
+
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/thenickvendetta"
     [[params.socialIcons]]
         name = "linkedin"
         url = "https://linkedin.com/in/nikmuhammadasyraf"
-        
+
 [[menu.main]]
     name = "Portfolio"
     url = "/posts/"
