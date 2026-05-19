@@ -1,7 +1,7 @@
 baseURL = 'https://thenickvendetta.github.io/'
 publishDir = 'docs'
 languageCode = 'en-us'
-title = 'Nick | My Portfolio'
+title = 'Nick Vendetta | Home'
 theme = 'PaperMod'
 
 # Kekalkan canonifyURLs tapi BUANG relativeURLs
