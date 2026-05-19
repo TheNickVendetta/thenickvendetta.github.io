@@ -2,6 +2,8 @@ baseURL = 'https://thenickvendetta.github.io/'
 languageCode = 'en-us'
 title = 'Nick | My Portfolio'
 theme = 'PaperMod'
+# Tambah baris ni untuk troubleshoot
+sectionPagesMenu = 'main'
 
 [params]
     env = 'production'
