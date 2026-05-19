@@ -16,3 +16,24 @@ theme = 'PaperMod'
         title = "Hi, I'm Nick"
         subtitle = "Final Year Computer Networking Student & IT Intern. Focusing on Offensive Security & Penetration Testing."
         imageUrl = "https://github.com/thenickvendetta.png" # Guna gambar profile github kau
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/thenickvendetta"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/username-kau"
+        
+[[menu.main]]
+    name = "Portfolio"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+[[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 30
