@@ -3,6 +3,8 @@ publishDir = 'docs'
 languageCode = 'en-us'
 title = 'Nick | My Portfolio'
 theme = 'PaperMod'
+canonifyURLs = true
+relativeURLs = true
 # Tambah baris ni untuk troubleshoot
 sectionPagesMenu = 'main'
 
@@ -24,7 +26,7 @@ sectionPagesMenu = 'main'
         url = "https://github.com/thenickvendetta"
     [[params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/username-kau"
+        url = "https://linkedin.com/in/nikmuhammadasyraf"
         
 [[menu.main]]
     name = "Portfolio"
