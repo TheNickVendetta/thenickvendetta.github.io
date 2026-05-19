@@ -1,4 +1,5 @@
 baseURL = 'https://thenickvendetta.github.io/'
+publishDir = 'docs'
 languageCode = 'en-us'
 title = 'Nick | My Portfolio'
 theme = 'PaperMod'
