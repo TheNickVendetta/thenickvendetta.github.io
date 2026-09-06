@@ -20,7 +20,7 @@ canonifyURLs = true
     [params.profileMode]
         enabled = true
         title = "Hi, I'm Nick"
-        subtitle = "Final Year Computer Networking Student & IT Intern. Focusing on Offensive Security & Penetration Testing."
+        subtitle = "Final Year Computer Networking Student. Focusing on Offensive Security & Penetration Testing."
         imageUrl = "https://github.com/thenickvendetta.png"
 
     [[params.socialIcons]]
@@ -34,6 +34,11 @@ canonifyURLs = true
     name = "Portfolio"
     url = "/posts/"
     weight = 10
+
+[[menu.main]]
+    name = "Writeups"
+    url = "/writeups/"
+    weight = 15
 
 [[menu.main]]
     name = "Tags"
