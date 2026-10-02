@@ -8,7 +8,7 @@ summary: "End-to-end bare-metal provisioning, LAMP stack architecture, performan
 
 ## Executive Summary
 
-During an institutional ICT engineering attachment, I spearheaded the complete deployment lifecycle of a dedicated, campus-wide Learning Management System (LMS) powered by Moodle. The deployment aimed to centralize academic resources across multiple faculties while replacing legacy, fragmented services.
+During my industrial training (internship) at the university's central ICT department, my supervisor entrusted me with the complete deployment lifecycle of a dedicated, campus-wide Learning Management System (LMS) powered by Moodle. The deployment aimed to centralize academic resources across multiple faculties while replacing legacy, fragmented services.
 
 Rather than relying on virtualized resource slices, the system was architected and deployed directly on bare-metal enterprise rack hardware—a **Dell PowerEdge R420**. The entire implementation was executed strictly via headless Linux CLI and secured using industry-standard system hardening practices, least-privilege access controls, and automated operational pipelines.
 
