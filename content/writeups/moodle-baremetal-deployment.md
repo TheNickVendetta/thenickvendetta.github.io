@@ -308,6 +308,16 @@ Ping statistics for 10.20.10.147:
 
 ---
 
+## 7. Experimental Integration & Rollback Decision: Local AI (Ollama)
+
+As part of an initiative to introduce AI-assisted learning features to the LMS, I conducted a Proof of Concept (PoC) by attempting to integrate a local Large Language Model (LLM) via **Ollama** directly on the server.
+
+However, during active testing, it became evident that the Dell PowerEdge R420's hardware constraints (relying on CPU-only inference with 16GB ECC RAM and no dedicated GPU) caused severe processing bottlenecks. The AI response latency was unacceptably high, and the inference process spiked CPU utilization to limits that threatened the responsiveness of the core Moodle web server.
+
+**Engineering Decision:** I made the call to abort the AI integration and roll back the server to its baseline configuration. Prioritizing core platform stability, reliable uptime, and a seamless user experience always supersedes the implementation of experimental features in a production environment.
+
+---
+
 ## Key Takeaways & Operational Impact
 
 1. **Bare-Metal Performance Efficiency:** Moving away from hypervisor emulation eliminated virtualization I/O overhead, providing dedicated access to physical SAS spindles and raw CPU cycles during assessment submission spikes.
